@@ -2,14 +2,34 @@
 
 Portland, OR | (916) 899-8749 | stevenpcox@outlook.com 
 
+## Summary
+
+My skillset is a unique intersection between technology and education. I am a formally trained
+educator with extensive experience teaching career technical education courses to adult learners, but
+can also manage the teaching platforms to support the courses. I have designed stand-alone
+courses, certificates, and degree programs both at the college level and in industry. As a Curriculum
+Director, I managed issues around compliance, consistency, and quality control. I have performed
+discovery with a wide variety of subject matter experts to assess their needs and help guide them
+through the best course of action whether it be related to learning or business development.
+Personally, as a maker, I have used Fusion 360 and am enthusiastic about Autodesk products.
+
 ## Experience
 
 ### Mercy Corps 
 
 *Solutions Architect 2021-current*
-- accomplishment
-- accomplishment
-- accomplishment
+- **Data Governance:** Retooling Data Governance, expanding the responsibilities and authority, changing
+the perception of the importance of data management within the organization through education.
+- **Consulting/Designing Reporting platform:** Includes data retention, document management,
+geolocation, and compliance reporting mechanisms for generating metrics on over 500 programs
+globally. Projected to result in massive annual savings due do reduction in disallowances during audits.
+- **Global SharePoint architect:** Creating the global architecture for SharePoint for document and
+workflow management. Improves access, retention, and security while reducing liability.
+- **Data Geolocation:** Created and implemented plan for data geolocation of all agency data to meet
+compliance with GDPR and EU data sovereignty laws.
+- **Process Design:** Redesigned the global Go/NoGo process from a simple stand-alone Google form to
+an integrated application. Engaged with SMEs and stakeholders to perform discovery and synthesize
+new product. Streamlines the process where $300,000,000 in grants originate annually.
 
 *Business Systems Analyst 2019-2021*
 - accomplishment

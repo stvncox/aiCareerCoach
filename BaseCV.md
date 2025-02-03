@@ -39,5 +39,7 @@ Portland, OR | (916) 899-8749 | stevenpcox@outlook.com
 
 ## Education
 Privacy Certification, IAPP-CIPP/US
+
 MS Education - California State University, Hayward
+
 BS Physical Science - California State University, Chico

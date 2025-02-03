@@ -4,7 +4,7 @@ Portland, OR | (916) 899-8749 | stevenpcox@outlook.com
 
 ## Experience
 
-### Employer 
+### Mercy Corps 
 
 *Title*
 - accomplishment
@@ -21,7 +21,7 @@ Portland, OR | (916) 899-8749 | stevenpcox@outlook.com
 - accomplishment
 - accomplishment
 
-### Employer 
+### Yuba College 
 
 *Title*
 - accomplishment

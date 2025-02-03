@@ -6,29 +6,29 @@ Portland, OR | (916) 899-8749 | stevenpcox@outlook.com
 
 ### Mercy Corps 
 
-*Business Solutions Architect*
+*Solutions Architect 2021-current*
 - accomplishment
 - accomplishment
 - accomplishment
 
-*Business Systems Analyst*
+*Business Systems Analyst 2019-2021*
 - accomplishment
 - accomplishment
 - accomplishment
 
-*Learning and Development Specialist*
+*Learning and Development Specialist 2016-2019*
 - accomplishment
 - accomplishment
 - accomplishment
 
 ### Yuba College 
 
-*Title*
+*Curriculum Chair 2014-2016*
 - accomplishment
 - accomplishment
 - accomplishment
 
-*Title*
+*Professor 1998-2016*
 - accomplishment
 - accomplishment
 - accomplishment
@@ -38,3 +38,6 @@ Portland, OR | (916) 899-8749 | stevenpcox@outlook.com
 
 
 ## Education
+&nbsp;&nbsp;&nbsp Privacy Certification, IAPP-CIPP/US
+&nbsp;&nbsp;&nbsp MS Education - California State University, Hayward
+&nbsp;&nbsp;&nbsp BS Physical Science - California State University, Chico

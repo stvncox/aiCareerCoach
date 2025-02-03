@@ -82,7 +82,8 @@ of instructors, and creating a tailored experience for students.
 
 ## Skills
 - Microsoft 
-- - SharePoint | Teams | PowerApps
+- - SharePoint | Teams | PowerApps | PowerAutomate
+  - Azure AD | PowerShell 
 - Document Management
 - - Google | Microsoft 
 - Curriculum Development

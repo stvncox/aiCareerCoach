@@ -81,9 +81,12 @@ total cost of ownership by over 50% and enabled faster content deployment, bette
 of instructors, and creating a tailored experience for students.
 
 ## Skills
-- Microsoft
+- Microsoft 
 - - SharePoint | Teams | PowerApps
+- Document Management
+- - Google | Microsoft 
 - Curriculum Development
+- - Storyline | Camtasia | CorelDraw | Fusion360
 
 
 ## Education

@@ -81,7 +81,9 @@ total cost of ownership by over 50% and enabled faster content deployment, bette
 of instructors, and creating a tailored experience for students.
 
 ## Skills
-
+- Microsoft
+- - SharePoint | Teams | PowerApps
+- Curriculum Development
 
 
 ## Education

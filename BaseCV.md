@@ -6,17 +6,17 @@ Portland, OR | (916) 899-8749 | stevenpcox@outlook.com
 
 ### Mercy Corps 
 
-*Title*
+*Business Solutions Architect*
 - accomplishment
 - accomplishment
 - accomplishment
 
-*Title*
+*Business Systems Analyst*
 - accomplishment
 - accomplishment
 - accomplishment
 
-*Title*
+*Learning and Development Specialist*
 - accomplishment
 - accomplishment
 - accomplishment

@@ -82,12 +82,12 @@ of instructors, and creating a tailored experience for students.
 
 ## Skills
 - Microsoft 
-  - SharePoint | Teams | PowerApps | PowerAutomate
-  - Azure AD | PowerShell 
+ - SharePoint | Teams | PowerApps | PowerAutomate
+ - Azure AD | PowerShell 
 - Document Management
-  - Google | Microsoft 
+ - Google | Microsoft 
 - Curriculum Development
-  - Storyline | Camtasia | CorelDraw | Fusion360
+ - Storyline | Camtasia | CorelDraw | Fusion360
 
 
 ## Education

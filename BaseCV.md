@@ -29,7 +29,8 @@ Portland, OR | (916) 899-8749 | stevenpcox@outlook.com
 - accomplishment
 
 *Professor 1998-2016*
-- accomplishment
+- **Aligned Courses:** Managed articulation agreements and Memorandums of Understanding (MOUs)
+between District and State systems, to transfer student credits.
 - accomplishment
 - accomplishment
 

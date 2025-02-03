@@ -1,4 +1,4 @@
-## Steven Cox
+# Steven Cox
 
 Portland, OR | (916) 899-8749 | stevenpcox@outlook.com 
 
@@ -17,7 +17,7 @@ Personally, as a maker, I have used Fusion 360 and am enthusiastic about Autodes
 
 ### Mercy Corps 
 
-*Solutions Architect 2021-current*
+#### *Solutions Architect 2021-current*
 - **Data Governance:** Retooling Data Governance, expanding the responsibilities and authority, changing
 the perception of the importance of data management within the organization through education.
 - **Consulting/Designing Reporting platform:** Includes data retention, document management,
@@ -31,7 +31,7 @@ compliance with GDPR and EU data sovereignty laws.
 an integrated application. Engaged with SMEs and stakeholders to perform discovery and synthesize
 new product. Streamlines the process where $300,000,000 in grants originate annually.
 
-*Business Systems Analyst 2019-2021*
+#### *Business Systems Analyst 2019-2021*
 - **Developed global Data Privacy Fundamentals course:** Worked with SMEs to create objectives,
 designed and developed course in Articulate Storyline, and deployed course globally on the LMS as
 part of the agency-wide required annual training for 6000+ employees. Course included branching and
@@ -43,7 +43,7 @@ commitment of $1,000,000 annual investment to upgrade technology within the agen
 - **Created Intake Application:** Reduced review time of applicants by 75%, generating an estimated cost
 savings of $40,000 annually, and improving the quality of the review experience.
 
-*Learning and Development Specialist 2016-2019*
+#### *Learning and Development Specialist 2016-2019*
 - **User Education:** Designed and implemented a new methodology for learning, and regularly presented
 training on the secure usage of Google as a secure document management system to improve
 document retention and reduced disallowances during audits.
@@ -56,7 +56,7 @@ used within the agency.
 
 ### Yuba College 
 
-*Curriculum Chair 2014-2016*
+#### *Curriculum Chair 2014-2016*
 - **Retooled Curriculum Management System:** Reduced the number of complex workflows from 54 to 4,
 simplifying the learning curve for end-users, and designed an insight tool to ensure compliance and
 reduced financial exposure by over $1,000,000 annually.
@@ -65,7 +65,7 @@ provide metrics on course performance.
 - **Associates Degree for Transfer (ADT):** Created ADTs that aligned with all state requirements to
 streamline student transfer to a four-year university.
 
-*Professor 1998-2016*
+#### *Professor 1998-2016*
 - **Aligned Courses:** Managed articulation agreements and Memorandums of Understanding (MOUs)
 between District and State systems, to transfer student credits.
 - **Created Learning Pathways:** Modularized the Information Technology Associates degree to include

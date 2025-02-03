@@ -44,16 +44,26 @@ commitment of $1,000,000 annual investment to upgrade technology within the agen
 savings of $40,000 annually, and improving the quality of the review experience.
 
 *Learning and Development Specialist 2016-2019*
-- accomplishment
-- accomplishment
-- accomplishment
+- **User Education:** Designed and implemented a new methodology for learning, and regularly presented
+training on the secure usage of Google as a secure document management system to improve
+document retention and reduced disallowances during audits.
+- **Restructured Document Management:** Designed, implemented, and provided training for document
+management systems in several high-risk countries to reduce risk to data and increase physical safety
+of individuals working and living in those environments.
+- **Developed Language Localized Platform:** Designed, implemented, and managed an online system
+for heavily trafficked guidance documents that was able to switch between the four primary languages
+used within the agency.
 
 ### Yuba College 
 
 *Curriculum Chair 2014-2016*
-- accomplishment
-- accomplishment
-- accomplishment
+- **Retooled Curriculum Management System:** Reduced the number of complex workflows from 54 to 4,
+simplifying the learning curve for end-users, and designed an insight tool to ensure compliance and
+reduced financial exposure by over $1,000,000 annually.
+- **Learning Objectives Repository:** Created a source of truth for all course learning objectives and
+provide metrics on course performance.
+- **Associates Degree for Transfer (ADT):** Created ADTs that aligned with all state requirements to
+streamline student transfer to a four-year university.
 
 *Professor 1998-2016*
 - **Aligned Courses:** Managed articulation agreements and Memorandums of Understanding (MOUs)

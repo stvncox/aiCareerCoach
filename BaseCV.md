@@ -32,9 +32,16 @@ an integrated application. Engaged with SMEs and stakeholders to perform discove
 new product. Streamlines the process where $300,000,000 in grants originate annually.
 
 *Business Systems Analyst 2019-2021*
-- accomplishment
-- accomplishment
-- accomplishment
+- **Developed global Data Privacy Fundamentals course:** Worked with SMEs to create objectives,
+designed and developed course in Articulate Storyline, and deployed course globally on the LMS as
+part of the agency-wide required annual training for 6000+ employees. Course included branching and
+assessment.
+- **Ran phishing education campaigns:** Ran global anti-phishing campaigns that included both live
+phishing and ongoing education, reduced incidence of users being hooked by over 30%.
+- **White Paper - Document Management Practices:** Became the driving force resulting in a
+commitment of $1,000,000 annual investment to upgrade technology within the agency.
+- **Created Intake Application:** Reduced review time of applicants by 75%, generating an estimated cost
+savings of $40,000 annually, and improving the quality of the review experience.
 
 *Learning and Development Specialist 2016-2019*
 - accomplishment

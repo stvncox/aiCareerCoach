@@ -81,7 +81,13 @@ total cost of ownership by over 50% and enabled faster content deployment, bette
 of instructors, and creating a tailored experience for students.
 
 ## Skills
-
+- Microsoft (global administrator)
+  - SharePoint | Teams | PowerApps | PowerAutomate
+  - Azure AD | PowerShell 
+- Document Management (global administrator)
+  - Google | Microsoft 
+- Curriculum Development
+  - Storyline | Camtasia | CorelDraw | Fusion360
 
 
 ## Education

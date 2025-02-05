@@ -1,1 +1,500 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Survey to JSON</title>
+  <style>
+    body {
+      font-family: sans-serif; 
+      margin: 20px; 
+      max-width: 700px;
+    }
+    fieldset { 
+      border: 1px solid #ccc; 
+      padding: 10px; 
+      margin-bottom: 15px;
+    }
+    legend {
+      font-weight: bold;
+    }
+    label { 
+      display: block; 
+      margin: 4px 0; 
+    }
+    h2 { 
+      margin-top: 30px; 
+      margin-bottom: 10px; 
+      border-bottom: 1px solid #ccc; 
+      padding-bottom: 5px;
+    }
+    button {
+      padding: 8px 16px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <form id="myForm">
+    <!-- 1. Core Values -->
+    <h2>1. Core Values</h2>
+    
+    <fieldset>
+      <legend>Integrity (Pick one)</legend>
+      <label><input type="radio" name="integrity" value="Honesty"> Honesty</label>
+      <label><input type="radio" name="integrity" value="Transparency"> Transparency</label>
+      <label><input type="radio" name="integrity" value="Accountability"> Accountability</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Collaboration (Pick one)</legend>
+      <label><input type="radio" name="collaboration" value="Teamwork"> Teamwork</label>
+      <label><input type="radio" name="collaboration" value="Partnership"> Partnership</label>
+      <label><input type="radio" name="collaboration" value="Cross-functional work"> Cross-functional work</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Innovation (Pick one)</legend>
+      <label><input type="radio" name="innovation" value="Creative problem-solving"> Creative problem-solving</label>
+      <label><input type="radio" name="innovation" value="Continuous learning"> Continuous learning</label>
+      <label><input type="radio" name="innovation" value="Growth mindset"> Growth mindset</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Diversity & Inclusion (Pick one)</legend>
+      <label><input type="radio" name="diversityInclusion" value="Equity"> Equity</label>
+      <label><input type="radio" name="diversityInclusion" value="Representation"> Representation</label>
+      <label><input type="radio" name="diversityInclusion" value="Social impact"> Social impact</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Growth & Development (Pick one)</legend>
+      <label><input type="radio" name="growthDevelopment" value="Lifelong learning"> Lifelong learning</label>
+      <label><input type="radio" name="growthDevelopment" value="Skill mastery"> Skill mastery</label>
+      <label><input type="radio" name="growthDevelopment" value="Career advancement"> Career advancement</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Purpose-Driven Work (Pick one)</legend>
+      <label><input type="radio" name="purposeDriven" value="Meaningful impact"> Meaningful impact</label>
+      <label><input type="radio" name="purposeDriven" value="Service-oriented"> Service-oriented</label>
+      <label><input type="radio" name="purposeDriven" value="Industry transformation"> Industry transformation</label>
+    </fieldset>
+
+    <!-- 2. Work Style & Problem-Solving Approach -->
+    <h2>2. Work Style & Problem-Solving Approach</h2>
+
+    <fieldset>
+      <legend>Adaptability (Pick one)</legend>
+      <label><input type="radio" name="adaptability" value="Flexible"> Flexible</label>
+      <label><input type="radio" name="adaptability" value="Resilient"> Resilient</label>
+      <label><input type="radio" name="adaptability" value="Comfortable with change"> Comfortable with change</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Attention to Detail (Pick one)</legend>
+      <label><input type="radio" name="attentionDetail" value="Process-driven"> Process-driven</label>
+      <label><input type="radio" name="attentionDetail" value="Analytical"> Analytical</label>
+      <label><input type="radio" name="attentionDetail" value="Precision-focused"> Precision-focused</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Thinking Style (Pick one)</legend>
+      <label><input type="radio" name="thinkingStyle" value="Big-picture strategist"> Big-picture strategist</label>
+      <label><input type="radio" name="thinkingStyle" value="Visionary"> Visionary</label>
+      <label><input type="radio" name="thinkingStyle" value="Long-term planner"> Long-term planner</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Motivation (Pick one)</legend>
+      <label><input type="radio" name="motivation" value="Results-driven"> Results-driven</label>
+      <label><input type="radio" name="motivation" value="Performance-oriented"> Performance-oriented</label>
+      <label><input type="radio" name="motivation" value="Goal-focused"> Goal-focused</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Creativity & Innovation (Pick one)</legend>
+      <label><input type="radio" name="creativityInnovation" value="Problem-solving"> Problem-solving</label>
+      <label><input type="radio" name="creativityInnovation" value="Out-of-the-box thinker"> Out-of-the-box thinker</label>
+      <label><input type="radio" name="creativityInnovation" value="Disruptive mindset"> Disruptive mindset</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Independence (Pick one)</legend>
+      <label><input type="radio" name="independence" value="Self-motivated"> Self-motivated</label>
+      <label><input type="radio" name="independence" value="Autonomous"> Autonomous</label>
+      <label><input type="radio" name="independence" value="Entrepreneurial"> Entrepreneurial</label>
+    </fieldset>
+
+    <!-- 3. Ideal Work Environment -->
+    <h2>3. Ideal Work Environment</h2>
+
+    <fieldset>
+      <legend>Pace (Pick one)</legend>
+      <label><input type="radio" name="pace" value="Fast-paced & high-energy"> Fast-paced & high-energy</label>
+      <label><input type="radio" name="pace" value="Dynamic & evolving"> Dynamic & evolving</label>
+      <label><input type="radio" name="pace" value="Stable & predictable"> Stable & predictable</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Structure (Pick one)</legend>
+      <label><input type="radio" name="structure" value="Process-driven"> Process-driven</label>
+      <label><input type="radio" name="structure" value="Well-organized"> Well-organized</label>
+      <label><input type="radio" name="structure" value="Open-ended & flexible"> Open-ended & flexible</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Collaboration (Pick one)</legend>
+      <label><input type="radio" name="collabEnv" value="Team-oriented"> Team-oriented</label>
+      <label><input type="radio" name="collabEnv" value="Cross-functional"> Cross-functional</label>
+      <label><input type="radio" name="collabEnv" value="Independent work"> Independent work</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Culture (Pick one)</legend>
+      <label><input type="radio" name="culture" value="Supportive & people-centered"> Supportive & people-centered</label>
+      <label><input type="radio" name="culture" value="Mission-driven"> Mission-driven</label>
+      <label><input type="radio" name="culture" value="Competitive & high-performance"> Competitive & high-performance</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Work Flexibility (Pick one)</legend>
+      <label><input type="radio" name="workFlexibility" value="Remote-friendly"> Remote-friendly</label>
+      <label><input type="radio" name="workFlexibility" value="Hybrid"> Hybrid</label>
+      <label><input type="radio" name="workFlexibility" value="In-office"> In-office</label>
+    </fieldset>
+
+    <!-- 4. Leadership & Management Preferences -->
+    <h2>4. Leadership & Management Preferences</h2>
+
+    <fieldset>
+      <legend>Leadership Style (Pick one)</legend>
+      <label><input type="radio" name="leadershipStyle" value="Empowering"> Empowering</label>
+      <label><input type="radio" name="leadershipStyle" value="Trust-based"> Trust-based</label>
+      <label><input type="radio" name="leadershipStyle" value="Hands-off & autonomous"> Hands-off & autonomous</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Communication Approach (Pick one)</legend>
+      <label><input type="radio" name="communicationApproach" value="Transparent & direct"> Transparent & direct</label>
+      <label><input type="radio" name="communicationApproach" value="Structured & formal"> Structured & formal</label>
+      <label><input type="radio" name="communicationApproach" value="Open & informal"> Open & informal</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Management Approach (Pick one)</legend>
+      <label><input type="radio" name="managementApproach" value="Mentorship-focused"> Mentorship-focused</label>
+      <label><input type="radio" name="managementApproach" value="Coaching-based"> Coaching-based</label>
+      <label><input type="radio" name="managementApproach" value="Performance-driven"> Performance-driven</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Work Independence (Pick one)</legend>
+      <label><input type="radio" name="workIndependence" value="Minimal supervision"> Minimal supervision</label>
+      <label><input type="radio" name="workIndependence" value="Collaborative decision-making"> Collaborative decision-making</label>
+      <label><input type="radio" name="workIndependence" value="Clear direction"> Clear direction</label>
+    </fieldset>
+
+    <!-- 5. Work-Life Balance & Company Culture -->
+    <h2>5. Work-Life Balance & Company Culture</h2>
+
+    <fieldset>
+      <legend>Work Expectations (Pick one)</legend>
+      <label><input type="radio" name="workExpectations" value="High-performance with balance"> High-performance with balance</label>
+      <label><input type="radio" name="workExpectations" value="Flexible & autonomous"> Flexible & autonomous</label>
+      <label><input type="radio" name="workExpectations" value="Structured hours"> Structured hours</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Culture Fit (Pick one)</legend>
+      <label><input type="radio" name="cultureFit" value="Casual & open"> Casual & open</label>
+      <label><input type="radio" name="cultureFit" value="Professional & structured"> Professional & structured</label>
+      <label><input type="radio" name="cultureFit" value="Highly engaged & community-oriented"> Highly engaged & community-oriented</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Learning & Growth (Pick one)</legend>
+      <label><input type="radio" name="learningGrowth" value="Continuous learning"> Continuous learning</label>
+      <label><input type="radio" name="learningGrowth" value="Career progression"> Career progression</label>
+      <label><input type="radio" name="learningGrowth" value="Professional development"> Professional development</label>
+    </fieldset>
+
+    <!-- 6. Preferred Industry & Mission Alignment -->
+    <h2>6. Preferred Industry & Mission Alignment</h2>
+
+    <fieldset>
+      <legend>Industry Interests (Pick one)</legend>
+      <label><input type="radio" name="industryInterests" value="Technology"> Technology</label>
+      <label><input type="radio" name="industryInterests" value="Healthcare"> Healthcare</label>
+      <label><input type="radio" name="industryInterests" value="Education"> Education</label>
+      <label><input type="radio" name="industryInterests" value="Finance"> Finance</label>
+      <label><input type="radio" name="industryInterests" value="Nonprofit"> Nonprofit</label>
+      <label>
+        <input type="radio" name="industryInterests" value="Other"> Other
+        <input type="text" name="industryOther" placeholder="Specify if 'Other'" style="margin-left:10px">
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Mission Fit (Pick one)</legend>
+      <label><input type="radio" name="missionFit" value="Sustainability"> Sustainability</label>
+      <label><input type="radio" name="missionFit" value="Social impact"> Social impact</label>
+      <label><input type="radio" name="missionFit" value="Innovation"> Innovation</label>
+      <label><input type="radio" name="missionFit" value="Ethical leadership"> Ethical leadership</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Long-Term Vision (Pick one)</legend>
+      <label><input type="radio" name="longTermVision" value="Industry leadership"> Industry leadership</label>
+      <label><input type="radio" name="longTermVision" value="Societal contribution"> Societal contribution</label>
+      <label><input type="radio" name="longTermVision" value="Community impact"> Community impact</label>
+    </fieldset>
+
+    <!-- 7. Preferred Company Size & Growth Stage -->
+    <h2>7. Preferred Company Size & Growth Stage</h2>
+
+    <fieldset>
+      <legend>Company Size (Pick one)</legend>
+      <label><input type="radio" name="companySize" value="Startup"> Startup</label>
+      <label><input type="radio" name="companySize" value="Mid-sized"> Mid-sized</label>
+      <label><input type="radio" name="companySize" value="Large enterprise"> Large enterprise</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Growth Stage (Pick one)</legend>
+      <label><input type="radio" name="growthStage" value="Scaling rapidly"> Scaling rapidly</label>
+      <label><input type="radio" name="growthStage" value="Established & stable"> Established & stable</label>
+      <label><input type="radio" name="growthStage" value="In transformation"> In transformation</label>
+    </fieldset>
+
+    <!-- 8. Learning & Career Development Goals -->
+    <h2>8. Learning & Career Development Goals</h2>
+
+    <fieldset>
+      <legend>Learning Style (Pick one)</legend>
+      <label><input type="radio" name="learningStyle" value="Hands-on projects"> Hands-on projects</label>
+      <label><input type="radio" name="learningStyle" value="Formal training"> Formal training</label>
+      <label><input type="radio" name="learningStyle" value="Self-directed learning"> Self-directed learning</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Growth Focus (Pick one)</legend>
+      <label><input type="radio" name="growthFocus" value="Leadership skills"> Leadership skills</label>
+      <label><input type="radio" name="growthFocus" value="Technical expertise"> Technical expertise</label>
+      <label><input type="radio" name="growthFocus" value="Cross-functional experience"> Cross-functional experience</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Mentorship & Coaching (Pick one)</legend>
+      <label><input type="radio" name="mentorship" value="Highly valued"> Highly valued</label>
+      <label><input type="radio" name="mentorship" value="Nice to have"> Nice to have</label>
+      <label><input type="radio" name="mentorship" value="Not a priority"> Not a priority</label>
+    </fieldset>
+
+    <!-- 9. Workplace Culture & Social Dynamics -->
+    <h2>9. Workplace Culture & Social Dynamics</h2>
+
+    <fieldset>
+      <legend>Team Dynamics (Pick one)</legend>
+      <label><input type="radio" name="teamDynamics" value="Highly social"> Highly social</label>
+      <label><input type="radio" name="teamDynamics" value="Occasionally collaborative"> Occasionally collaborative</label>
+      <label><input type="radio" name="teamDynamics" value="Independent work"> Independent work</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Workplace Vibe (Pick one)</legend>
+      <label><input type="radio" name="workplaceVibe" value="Casual & creative"> Casual & creative</label>
+      <label><input type="radio" name="workplaceVibe" value="Formal & structured"> Formal & structured</label>
+      <label><input type="radio" name="workplaceVibe" value="High-energy & competitive"> High-energy & competitive</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Feedback Culture (Pick one)</legend>
+      <label><input type="radio" name="feedbackCulture" value="Direct & frequent"> Direct & frequent</label>
+      <label><input type="radio" name="feedbackCulture" value="Diplomatic & structured"> Diplomatic & structured</label>
+      <label><input type="radio" name="feedbackCulture" value="Occasional check-ins"> Occasional check-ins</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Diversity & Inclusion Priorities (Pick one)</legend>
+      <label><input type="radio" name="diPriorities" value="Highly important"> Highly important</label>
+      <label><input type="radio" name="diPriorities" value="Somewhat important"> Somewhat important</label>
+      <label><input type="radio" name="diPriorities" value="Not a priority"> Not a priority</label>
+    </fieldset>
+
+    <!-- 10. Ideal Compensation & Benefits -->
+    <h2>10. Ideal Compensation & Benefits</h2>
+
+    <fieldset>
+      <legend>Salary Expectations (Pick one)</legend>
+      <label><input type="radio" name="salaryExpectations" value="Market competitive"> Market competitive</label>
+      <label><input type="radio" name="salaryExpectations" value="Higher compensation with fewer benefits"> Higher compensation with fewer benefits</label>
+      <label><input type="radio" name="salaryExpectations" value="Lower salary with strong benefits"> Lower salary with strong benefits</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Benefits Priorities (Pick one)</legend>
+      <label><input type="radio" name="benefitsPriorities" value="Healthcare"> Healthcare</label>
+      <label><input type="radio" name="benefitsPriorities" value="Remote flexibility"> Remote flexibility</label>
+      <label><input type="radio" name="benefitsPriorities" value="Professional development stipends"> Professional development stipends</label>
+      <label><input type="radio" name="benefitsPriorities" value="Stock options"> Stock options</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Workplace Perks (Pick one)</legend>
+      <label><input type="radio" name="workplacePerks" value="Wellness programs"> Wellness programs</label>
+      <label><input type="radio" name="workplacePerks" value="Travel opportunities"> Travel opportunities</label>
+      <label><input type="radio" name="workplacePerks" value="Generous PTO"> Generous PTO</label>
+    </fieldset>
+
+    <!-- 11. Decision-Making Factors -->
+    <h2>11. Decision-Making Factors (Deal Breakers & Must-Haves)</h2>
+
+    <fieldset>
+      <legend>Must-Haves (Pick one)</legend>
+      <label><input type="radio" name="mustHaves" value="Career growth"> Career growth</label>
+      <label><input type="radio" name="mustHaves" value="Ethical leadership"> Ethical leadership</label>
+      <label><input type="radio" name="mustHaves" value="Strong team culture"> Strong team culture</label>
+      <label><input type="radio" name="mustHaves" value="Flexibility"> Flexibility</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Deal-Breakers (Pick one)</legend>
+      <label><input type="radio" name="dealBreakers" value="Poor work-life balance"> Poor work-life balance</label>
+      <label><input type="radio" name="dealBreakers" value="Lack of transparency"> Lack of transparency</label>
+      <label><input type="radio" name="dealBreakers" value="Limited career progression"> Limited career progression</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Workplace Red Flags (Pick one)</legend>
+      <label><input type="radio" name="workplaceRedFlags" value="High turnover"> High turnover</label>
+      <label><input type="radio" name="workplaceRedFlags" value="Toxic leadership"> Toxic leadership</label>
+      <label><input type="radio" name="workplaceRedFlags" value="Undefined job expectations"> Undefined job expectations</label>
+    </fieldset>
+
+    <!-- 12. Long-Term Career Vision -->
+    <h2>12. Long-Term Career Vision</h2>
+
+    <fieldset>
+      <legend>5-Year Vision (Pick one)</legend>
+      <label><input type="radio" name="fiveYearVision" value="Leadership role"> Leadership role</label>
+      <label><input type="radio" name="fiveYearVision" value="Technical mastery"> Technical mastery</label>
+      <label><input type="radio" name="fiveYearVision" value="Industry impact"> Industry impact</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Ideal Career Pathway (Pick one)</legend>
+      <label><input type="radio" name="careerPathway" value="Growing within a company"> Growing within a company</label>
+      <label><input type="radio" name="careerPathway" value="Exploring different industries"> Exploring different industries</label>
+      <label><input type="radio" name="careerPathway" value="Building my own business"> Building my own business</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Personal Mission Statement (Pick one)</legend>
+      <label><input type="radio" name="personalMission" value="Advancing technology"> Advancing technology</label>
+      <label><input type="radio" name="personalMission" value="Improving education"> Improving education</label>
+      <label><input type="radio" name="personalMission" value="Driving social change"> Driving social change</label>
+    </fieldset>
+  </form>
+
+  <button type="button" id="downloadBtn">Download JSON</button>
+
+  <script>
+    document.getElementById("downloadBtn").addEventListener("click", function() {
+      const form = document.getElementById("myForm");
+      const formData = new FormData(form);
+
+      // Handle the special "Other" text field in Industry Interests:
+      let industryChoice = formData.get("industryInterests") || "";
+      let industryOther   = formData.get("industryOther") || "";
+      if (industryChoice === "Other" && industryOther.trim()) {
+        industryChoice = `Other: ${industryOther.trim()}`;
+      }
+
+      // Build a structured JSON object:
+      const data = {
+        coreValues: {
+          integrity: formData.get("integrity") || "",
+          collaboration: formData.get("collaboration") || "",
+          innovation: formData.get("innovation") || "",
+          diversityInclusion: formData.get("diversityInclusion") || "",
+          growthDevelopment: formData.get("growthDevelopment") || "",
+          purposeDriven: formData.get("purposeDriven") || ""
+        },
+        workStyle: {
+          adaptability: formData.get("adaptability") || "",
+          attentionDetail: formData.get("attentionDetail") || "",
+          thinkingStyle: formData.get("thinkingStyle") || "",
+          motivation: formData.get("motivation") || "",
+          creativityInnovation: formData.get("creativityInnovation") || "",
+          independence: formData.get("independence") || ""
+        },
+        workEnvironment: {
+          pace: formData.get("pace") || "",
+          structure: formData.get("structure") || "",
+          collaboration: formData.get("collabEnv") || "",
+          culture: formData.get("culture") || "",
+          workFlexibility: formData.get("workFlexibility") || ""
+        },
+        leadershipManagement: {
+          leadershipStyle: formData.get("leadershipStyle") || "",
+          communicationApproach: formData.get("communicationApproach") || "",
+          managementApproach: formData.get("managementApproach") || "",
+          workIndependence: formData.get("workIndependence") || ""
+        },
+        workLifeBalance: {
+          workExpectations: formData.get("workExpectations") || "",
+          cultureFit: formData.get("cultureFit") || "",
+          learningGrowth: formData.get("learningGrowth") || ""
+        },
+        industryMission: {
+          industryInterests: industryChoice,
+          missionFit: formData.get("missionFit") || "",
+          longTermVision: formData.get("longTermVision") || ""
+        },
+        companySizeGrowth: {
+          companySize: formData.get("companySize") || "",
+          growthStage: formData.get("growthStage") || ""
+        },
+        learningCareer: {
+          learningStyle: formData.get("learningStyle") || "",
+          growthFocus: formData.get("growthFocus") || "",
+          mentorship: formData.get("mentorship") || ""
+        },
+        workplaceCulture: {
+          teamDynamics: formData.get("teamDynamics") || "",
+          workplaceVibe: formData.get("workplaceVibe") || "",
+          feedbackCulture: formData.get("feedbackCulture") || "",
+          diPriorities: formData.get("diPriorities") || ""
+        },
+        compensationBenefits: {
+          salaryExpectations: formData.get("salaryExpectations") || "",
+          benefitsPriorities: formData.get("benefitsPriorities") || "",
+          workplacePerks: formData.get("workplacePerks") || ""
+        },
+        decisionFactors: {
+          mustHaves: formData.get("mustHaves") || "",
+          dealBreakers: formData.get("dealBreakers") || "",
+          workplaceRedFlags: formData.get("workplaceRedFlags") || ""
+        },
+        longTermCareer: {
+          fiveYearVision: formData.get("fiveYearVision") || "",
+          careerPathway: formData.get("careerPathway") || "",
+          personalMission: formData.get("personalMission") || ""
+        }
+      };
+
+      const jsonStr = JSON.stringify(data, null, 2);
+      const blob = new Blob([jsonStr], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "worldview.json";
+      link.click();
+      URL.revokeObjectURL(url);
+    });
+  </script>
+</body>
+</html>
+

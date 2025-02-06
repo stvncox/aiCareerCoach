@@ -420,6 +420,7 @@
       const homeAddress = document.getElementById("homeAddress").value;
       // Build a structured JSON object:
       const data = {
+              homeAddress: homeAddress,  // ✅ Include the home address in JSON
         coreValues: {
           integrity: formData.get("integrity") || "",
           collaboration: formData.get("collaboration") || "",

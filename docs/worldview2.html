@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Survey to JSON</title>
+  <style>
+    body {
+      font-family: sans-serif; 
+      margin: 20px; 
+      max-width: 700px;
+    }
+    fieldset { 
+      border: 1px solid #ccc; 
+      padding: 10px; 
+      margin-bottom: 15px;
+    }
+    legend {
+      font-weight: bold;
+    }
+    label { 
+      display: block; 
+      margin: 4px 0; 
+    }
+    h2 { 
+      margin-top: 30px; 
+      margin-bottom: 10px; 
+      border-bottom: 1px solid #ccc; 
+      padding-bottom: 5px;
+    }
+    button {
+      padding: 8px 16px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    .address-field {
+      margin-bottom: 20px;
+    }
+    .address-field label {
+      font-weight: bold;
+    }
+    .address-field input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ✅ New Address Input Field -->
+  <div class="address-field">
+    <label for="homeAddress">🏠 Input Your Address:</label>
+    <input type="text" id="homeAddress" name="homeAddress" placeholder="Enter your full home address here...">
+  </div>
+
+  <form id="myForm">
+    <!-- Existing form content goes here... (I kept it unchanged for brevity) -->
+
+    <!-- Example Section -->
+    <h2>1. Core Values</h2>
+    <fieldset>
+      <legend>Integrity (Pick one)</legend>
+      <label><input type="radio" name="integrity" value="Honesty"> Honesty</label>
+      <label><input type="radio" name="integrity" value="Transparency"> Transparency</label>
+      <label><input type="radio" name="integrity" value="Accountability"> Accountability</label>
+    </fieldset>
+
+    <!-- Add other sections here as needed -->
+
+  </form>
+
+  <button type="button" id="downloadBtn">Download JSON</button>
+
+  <script>
+    document.getElementById("downloadBtn").addEventListener("click", function() {
+      const form = document.getElementById("myForm");
+      const formData = new FormData(form);
+
+      // ✅ Get the home address from the new input field
+      const homeAddress = document.getElementById("homeAddress").value;
+
+      // Build a structured JSON object:
+      const data = {
+        homeAddress: homeAddress,  // ✅ Include the home address in JSON
+        coreValues: {
+          integrity: formData.get("integrity") || "",
+          collaboration: formData.get("collaboration") || "",
+          innovation: formData.get("innovation") || "",
+          diversityInclusion: formData.get("diversityInclusion") || "",
+          growthDevelopment: formData.get("growthDevelopment") || "",
+          purposeDriven: formData.get("purposeDriven") || ""
+        },
+        // Add other form sections here as needed
+      };
+
+      const jsonStr = JSON.stringify(data, null, 2);
+      const blob = new Blob([jsonStr], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "details.json";  // ✅ Save as details.json
+      link.click();
+      URL.revokeObjectURL(url);
+    });
+  </script>
+</body>
+</html>

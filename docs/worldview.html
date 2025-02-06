@@ -503,7 +503,7 @@
       const link = document.createElement("a");
       link.href = url;
       link.download = "worldview.json";
-      link.download = "details.json";  // ✅ Save as details.json
+      //link.download = "details.json";  // ✅ Save as details.json
       link.click();
       URL.revokeObjectURL(url);
     });

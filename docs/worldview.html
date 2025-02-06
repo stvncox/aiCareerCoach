@@ -37,6 +37,11 @@
 </head>
 <body>
   <form id="myForm">
+    <!-- ✅ New Address Input Field -->
+  <div class="address-field">
+    <label for="homeAddress">🏠 Input Your Address:</label>
+    <input type="text" id="homeAddress" name="homeAddress" placeholder="Enter your full home address here...">
+  </div>
     <!-- 1. Core Values -->
     <h2>1. Core Values</h2>
     
@@ -411,7 +416,8 @@
       if (industryChoice === "Other" && industryOther.trim()) {
         industryChoice = `Other: ${industryOther.trim()}`;
       }
-
+   // ✅ Get the home address from the new input field
+      const homeAddress = document.getElementById("homeAddress").value;
       // Build a structured JSON object:
       const data = {
         coreValues: {

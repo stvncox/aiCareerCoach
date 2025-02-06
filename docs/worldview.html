@@ -420,7 +420,7 @@
       const homeAddress = document.getElementById("homeAddress").value;
       // Build a structured JSON object:
       const data = {
-              homeAddress: homeAddress,  // ✅ Include the home address in JSON
+          homeAddress: homeAddress,  // ✅ Include the home address in JSON
         coreValues: {
           integrity: formData.get("integrity") || "",
           collaboration: formData.get("collaboration") || "",
@@ -498,6 +498,7 @@
       const link = document.createElement("a");
       link.href = url;
       link.download = "worldview.json";
+      link.download = "details.json";  // ✅ Save as details.json
       link.click();
       URL.revokeObjectURL(url);
     });

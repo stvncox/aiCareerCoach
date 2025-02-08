@@ -1,0 +1,72 @@
+{
+  "homeAddress": "John Doe, 1234 E. 5th St., Seattle WA 98101",
+  "coreValues": {
+    "integrity": "Honesty",
+    "collaboration": "Teamwork",
+    "innovation": "Creative problem-solving",
+    "diversityInclusion": "Equity",
+    "growthDevelopment": "Lifelong learning",
+    "purposeDriven": "Meaningful impact"
+  },
+  "workStyle": {
+    "adaptability": "Flexible",
+    "attentionDetail": "Process-driven",
+    "thinkingStyle": "Big-picture strategist",
+    "motivation": "Results-driven",
+    "creativityInnovation": "Problem-solving",
+    "independence": "Self-motivated"
+  },
+  "workEnvironment": {
+    "pace": "Fast-paced & high-energy",
+    "structure": "Process-driven",
+    "collaboration": "Team-oriented",
+    "culture": "Supportive & people-centered",
+    "workFlexibility": "Remote-friendly"
+  },
+  "leadershipManagement": {
+    "leadershipStyle": "Empowering",
+    "communicationApproach": "Transparent & direct",
+    "managementApproach": "Mentorship-focused",
+    "workIndependence": "Minimal supervision"
+  },
+  "workLifeBalance": {
+    "workExpectations": "High-performance with balance",
+    "cultureFit": "Casual & open",
+    "learningGrowth": "Continuous learning"
+  },
+  "industryMission": {
+    "industryInterests": "Technology",
+    "missionFit": "Sustainability",
+    "longTermVision": "Industry leadership"
+  },
+  "companySizeGrowth": {
+    "companySize": "Startup",
+    "growthStage": "Scaling rapidly"
+  },
+  "learningCareer": {
+    "learningStyle": "Hands-on projects",
+    "growthFocus": "Leadership skills",
+    "mentorship": "Highly valued"
+  },
+  "workplaceCulture": {
+    "teamDynamics": "Highly social",
+    "workplaceVibe": "Casual & creative",
+    "feedbackCulture": "Direct & frequent",
+    "diPriorities": "Highly important"
+  },
+  "compensationBenefits": {
+    "salaryExpectations": "Market competitive",
+    "benefitsPriorities": "Healthcare",
+    "workplacePerks": "Wellness programs"
+  },
+  "decisionFactors": {
+    "mustHaves": "Career growth",
+    "dealBreakers": "Poor work-life balance",
+    "workplaceRedFlags": "High turnover"
+  },
+  "longTermCareer": {
+    "fiveYearVision": "Leadership role",
+    "careerPathway": "Growing within a company",
+    "personalMission": "Advancing technology"
+  }
+}
